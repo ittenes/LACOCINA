@@ -27,6 +27,7 @@
 		<div class="post-inner">
 		
 			<?php $title_var = get_the_title(); ?>
+			
 		
 			<?php if ( !empty( $title_var ) ) : ?>
 		
@@ -41,6 +42,7 @@
 			<?php the_excerpt(); ?>
 		
 			<?php garfunkel_meta(); ?>
+			
 		
 		</div> <!-- /post-inner -->
 	

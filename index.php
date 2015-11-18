@@ -33,7 +33,8 @@
 			    		<?php get_template_part( 'content', get_post_format() ); ?>
 
 			    		<p>
-			    			<?php the_field('texto'); ?>
+			    			<!--<?php the_field('texto'); ?>-->
+			    			<?php echo CFS()->get( 'texto' ); ?>
 			    		</p>
 			    			        		            
 			        <?php endwhile; ?>

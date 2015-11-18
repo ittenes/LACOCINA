@@ -44,6 +44,8 @@
 					   				        			        		                
 						<div class="post-content">
 									                                        
+							
+							
 							<?php the_content(); ?>
 							
 							<?php edit_post_link(__('Edit','garfunkel') . ' &rarr;', '<div class="clear"></div>'); ?>
